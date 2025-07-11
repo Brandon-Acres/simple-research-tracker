@@ -40,6 +40,15 @@ app.MapPut("/projects/{id}", (int id, ResearchProject updatedProject) =>
     return Results.Ok(existing);
 });
 
+app.MapDelete("/projects/{id}", (int id) =>
+{
+    var existing = projects.FirstOrDefault(p => p.Id == id);
+    if (existing is null) return Results.NotFound();
+
+    projects.Remove(existing);
+    return Results.NoContent();
+});
+
 
 
 app.Run();
