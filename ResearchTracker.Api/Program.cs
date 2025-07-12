@@ -24,6 +24,12 @@ List<ResearchProject> projects = new List<ResearchProject>();
 
 app.MapGet("/projects", () => projects);
 
+app.MapGet("/projects/{id}", (int id) =>
+{
+    var project = projects.FirstOrDefault(p => p.Id == id);
+    return project is not null ? Results.Ok(project) : Results.NotFound();
+});
+
 app.MapPost("/projects", (ResearchProject project) =>
 {
     project.Id = projects.Count + 1;
@@ -53,3 +59,4 @@ app.MapDelete("/projects/{id}", (int id) =>
 
 app.Run();
 
+public partial class Program { }

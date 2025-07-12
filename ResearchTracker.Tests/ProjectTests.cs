@@ -9,7 +9,7 @@ public class ProjectTests
     {
         var project = new ResearchProject { Title = "AI Study", PrincipalInvestigator = "Dr. Smith" };
         // Assert.Equal("AI Study", project.Title);
-        // Assert.NotEqual("ML topics", project.Title);
+        Assert.NotEqual("ML topics", project.Title);
     }
 
     // Will develop more detailed tests

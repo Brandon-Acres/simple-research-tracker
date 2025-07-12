@@ -31,3 +31,4 @@ C:\Users\abran\Desktop\CS topics\DotNet Learning\Beginner Projects\Research Trac
 C:\Users\abran\Desktop\CS topics\DotNet Learning\Beginner Projects\Research Tracker\ResearchTracker.Api\obj\Debug\net8.0\ResearchTracker.Api.pdb
 C:\Users\abran\Desktop\CS topics\DotNet Learning\Beginner Projects\Research Tracker\ResearchTracker.Api\obj\Debug\net8.0\ResearchTracker.Api.genruntimeconfig.cache
 C:\Users\abran\Desktop\CS topics\DotNet Learning\Beginner Projects\Research Tracker\ResearchTracker.Api\obj\Debug\net8.0\ref\ResearchTracker.Api.dll
+C:\Users\abran\Desktop\CS topics\DotNet Learning\Beginner Projects\Research Tracker\ResearchTracker.Api\obj\Debug\net8.0\ResearchTracker.Api.sourcelink.json
